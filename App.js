@@ -39,16 +39,16 @@ export default function App() {
     prepareResources();
   }, []);
 
-  const playSound = async () => {
-    try {
-      const { sound } = await Audio.Sound.createAsync(
-        require('./assets/sounds/card-sound.mp3')
-      );
-      await sound.playAsync();
-    } catch (error) {
-      console.log('Erreur lors du chargement du son :', error);
-    }
-  };
+  // const playSound = async () => {
+  //   try {
+  //     const { sound } = await Audio.Sound.createAsync(
+  //       require('./assets/sounds/card-sound.mp3')
+  //     );
+  //     await sound.playAsync();
+  //   } catch (error) {
+  //     console.log('Erreur lors du chargement du son :', error);
+  //   }
+  // };
 
   const chooseRandomCard = () => {
     const randomIndex = Math.floor(Math.random() * data.length);
@@ -60,7 +60,7 @@ export default function App() {
       duration: 600,
       useNativeDriver: true,
     }).start();
-    playSound();
+    // playSound();
   };
 
   // Rendu d'un indicateur de chargement tant que l'application n'est pas prête

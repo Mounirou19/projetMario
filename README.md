@@ -29,6 +29,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
     npm install
 
 3. **Configurer Expo**
+    - Lancer la commande : npx expo start -c
     - Installez l'application Expo Go sur votre appareil mobile (iOS ou Android).
     - Connectez votre appareil au même réseau que votre ordinateur.
 

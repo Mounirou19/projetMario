@@ -22,8 +22,8 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 ## Installation 💻
 
 1. **Cloner le dépôt**
-   git clone https://github.com/<votre_nom_utilisateur>/<nom_du_projet>.git
-   cd <nom_du_projet>
+   git clone https://github.com/Mounirou19/projetMario.git
+   cd projetMario/
 
 2. **Installer les dépendances**
     npm install

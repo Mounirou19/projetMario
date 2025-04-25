@@ -74,3 +74,31 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 * Si l'application ne se charge pas correctement, vérifiez les versions des dépendances avec : npx expo install --check
 
 * Assurez-vous que votre appareil et votre ordinateur sont sur le même réseau pour utiliser Expo Go.
+
+---
+
+## Fonctionnalités principales 🚀
+
+Voici les fonctionnalités que propose **Mario Party Jamboree** :
+
+### 🎴 Tirage aléatoire de cartes
+- Permet de sélectionner une carte au hasard parmi une liste de parcours de jeu.
+- Chaque carte affiche un design unique, une description et une icône représentative.
+
+### 🎨 Animations fluides
+- Les cartes s'affichent avec une animation de fondu élégante.
+- Une transition fluide améliore l'expérience utilisateur à chaque interaction.
+
+### 🖋️ Police personnalisée
+- L'application utilise une police unique (**ShinGo**) pour donner une touche visuelle unique.
+
+### 📱 Compatible avec tous les appareils
+- Fonctionne sur les appareils Android, iOS et les navigateurs web grâce à Expo.
+- Interface intuitive adaptée à une utilisation mobile.
+
+### 🛠️ Architecture modulaire
+- Composants réutilisables comme `CardDisplay` et `RandomizerButton` pour un code propre et évolutif.
+
+### 🌟 Design attrayant
+- Palette de couleurs vives et conviviales pour refléter l'esprit festif de Mario Party.
+- Mise en page optimisée pour toutes les tailles d'écran.
